@@ -1,0 +1,10 @@
+# Nmap 7.98 scan initiated Sun Nov  8 04:57:04 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sT -sV -Pn -n -p 3306,7579 --stats-every 15s -oN .\\evidence\\lab1\\nmap_server.txt 127.0.0.1
+Nmap scan report for 127.0.0.1
+Host is up (0.00088s latency).
+
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql   MySQL 8.4.11
+7579/tcp open  http    Node.js Express framework
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Nov  8 04:57:16 2026 -- 1 IP address (1 host up) scanned in 11.28 seconds

@@ -1,0 +1,9 @@
+﻿F6 - Git exclusion check
+Scope: the three private paths listed below
+IGNORED: .secrets/mysql-root.txt
+.gitignore:3:.secrets/	.secrets/mysql-root.txt
+IGNORED: Mobius/conf.json
+.gitignore:13:Mobius/	Mobius/conf.json
+IGNORED: Mobius/conf.seal.json
+.gitignore:13:Mobius/	Mobius/conf.seal.json
+Tracked private paths: 0

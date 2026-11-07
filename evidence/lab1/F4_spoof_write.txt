@@ -1,0 +1,20 @@
+﻿F4 - Create attempt using an unregistered origin
+Origin supplied: Chacker
+Target: /Mobius/sensor01/telemetry
+Payload: {"m2m:cin":{"con":{"device":"sensor01","temp":66.6,"hum":1,"test":"F4_Chacker"}}}
+curl exit code: 0
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Origin, X-Requested-With, Content-Type, X-M2M-RI, X-M2M-RVI, X-M2M-RSC, Accept, X-M2M-Origin, Locale
+Content-Location: Mobius/sensor01/telemetry/4-20261107202622240024000
+X-M2M-RI: lab1-f4-write
+X-M2M-RVI: 3
+Content-Type: application/json; charset=utf-8
+X-M2M-RSC: 2001
+Date: Sat, 07 Nov 2026 20:26:22 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 292
+
+{"m2m:cin":{"rn":"4-20261107202622240024000","ty":4,"pi":"3-2026110717275679701j8c000","ri":"4-2026110720262224001j8c000","ct":"20261107T202622","lt":"20261107T202622","st":942,"et":"20991231T235959","cs":61,"con":{"device":"sensor01","temp":66.6,"hum":1,"test":"F4_Chacker"},"cr":"Chacker"}}

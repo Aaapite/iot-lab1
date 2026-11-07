@@ -1,0 +1,9 @@
+# Nmap 7.98 scan initiated Sun Nov  8 04:54:07 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sT -sV -Pn -n -p 1883 --stats-every 15s -oN .\\evidence\\lab1\\nmap_gateway.txt 127.0.0.1
+Nmap scan report for 127.0.0.1
+Host is up (0.00s latency).
+
+PORT     STATE SERVICE                  VERSION
+1883/tcp open  mosquitto version 2.0.22
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Nov  8 04:54:20 2026 -- 1 IP address (1 host up) scanned in 13.50 seconds

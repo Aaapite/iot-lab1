@@ -1,0 +1,13 @@
+﻿F1 - Anonymous MQTT wildcard subscription
+Target: mqtt:1883 on iot-lab1_labnet
+Authentication: anonymous
+Topic filter: #
+Subscriber exit code: 0
+campus/sensor02/telemetry {"device": "sensor02", "temp": 28.6, "hum": 78, "ts": 1794073374}
+campus/sensor01/telemetry {"device": "sensor01", "temp": 29.2, "hum": 52, "ts": 1794073374}
+campus/sensor02/telemetry {"device": "sensor02", "temp": 28.4, "hum": 52, "ts": 1794073379}
+campus/sensor01/telemetry {"device": "sensor01", "temp": 30.9, "hum": 68, "ts": 1794073379}
+campus/sensor02/telemetry {"device": "sensor02", "temp": 29.1, "hum": 61, "ts": 1794073384}
+campus/sensor01/telemetry {"device": "sensor01", "temp": 28.2, "hum": 69, "ts": 1794073384}
+campus/sensor02/telemetry {"device": "sensor02", "temp": 28.8, "hum": 57, "ts": 1794073389}
+campus/sensor01/telemetry {"device": "sensor01", "temp": 28.1, "hum": 76, "ts": 1794073389}

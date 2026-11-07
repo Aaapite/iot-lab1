@@ -1,0 +1,52 @@
+name: iot-lab1
+
+services:
+  mqtt:
+    image: eclipse-mosquitto:2.0.22
+    container_name: iot-lab1-mqtt
+    ports:
+      - "127.0.0.1:1883:1883"
+    volumes:
+      - ./config/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+    networks:
+      - labnet
+      - hostaccess
+    restart: "no"
+
+  mysql:
+    image: mysql:8.4.11
+    container_name: iot-lab1-mysql
+    environment:
+      MYSQL_DATABASE: mobiusdb
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/mysql_root_password
+      MYSQL_ROOT_HOST: "%"
+    secrets:
+      - mysql_root_password
+    ports:
+      - "127.0.0.1:3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - hostaccess
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - 'MYSQL_PWD="$$(cat /run/secrets/mysql_root_password)" mysql --protocol=TCP -h 127.0.0.1 -u root -Nse "SELECT 1" >/dev/null 2>&1'
+      interval: 5s
+      timeout: 5s
+      retries: 24
+      start_period: 40s
+    restart: "no"
+
+networks:
+  labnet:
+    internal: true
+  hostaccess:
+    driver: bridge
+
+volumes:
+  mysql_data:
+
+secrets:
+  mysql_root_password:
+    file: ./.secrets/mysql-root.txt

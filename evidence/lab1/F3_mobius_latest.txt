@@ -1,0 +1,16 @@
+﻿F3 - Latest stored sensor01 reading
+curl exit code: 0
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Origin, X-Requested-With, Content-Type, X-M2M-RI, X-M2M-RVI, X-M2M-RSC, Accept, X-M2M-Origin, Locale
+X-M2M-RI: lab1-f3-verify
+X-M2M-RVI: 3
+Content-Type: application/json; charset=utf-8
+X-M2M-RSC: 2000
+Date: Sat, 07 Nov 2026 19:36:40 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 274
+
+{"m2m:cin":{"pi":"3-2026110717275679701j8c000","ri":"4-2026110719122624001j8c000","ty":4,"ct":"20261107T191226","st":941,"rn":"4-20261107191226239024000","lt":"20261107T191226","et":"20991231T235959","cs":41,"cr":"Csensor01","con":{"device":"sensor01","temp":99.9,"hum":0}}}

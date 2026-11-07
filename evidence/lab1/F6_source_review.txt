@@ -1,0 +1,7 @@
+﻿F6 - Scoped source credential review
+Method: credential-keyword scan; matching source contents omitted
+src\sensor_sim.py: 0 candidate line(s)
+src\bridge.py: 0 candidate line(s)
+src\register_resources.py: 0 candidate line(s)
+Total candidate lines: 0
+Scope is limited to the three source files listed above.

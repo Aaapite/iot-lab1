@@ -1,0 +1,16 @@
+Sat, 07 Nov 2026 17:27:56 GMT
+sensor01 AE: HTTP 201; X-M2M-RSC 2001
+{"m2m:ae":{"rn":"sensor01","ty":2,"pi":"5-2026110717201456000ltg000","ri":"Csensor01","ct":"20261107T172756","lt":"20261107T172756","et":"20991231T235959","api":"Nlab1.campus","rr":true,"srv":["3"],"aei":"Csensor01"}}
+
+Sat, 07 Nov 2026 17:27:56 GMT
+sensor01 telemetry container: HTTP 201; X-M2M-RSC 2001
+{"m2m:cnt":{"rn":"telemetry","ty":3,"pi":"Csensor01","ri":"3-2026110717275679701j8c000","ct":"20261107T172756","lt":"20261107T172756","st":0,"et":"20991231T235959","mni":1000,"mbs":3153600000,"mia":31536000,"cr":"Csensor01","cni":0,"cbs":0}}
+
+Sat, 07 Nov 2026 17:27:56 GMT
+sensor02 AE: HTTP 201; X-M2M-RSC 2001
+{"m2m:ae":{"rn":"sensor02","ty":2,"pi":"5-2026110717201456000ltg000","ri":"Csensor02","ct":"20261107T172756","lt":"20261107T172756","et":"20991231T235959","api":"Nlab1.campus","rr":true,"srv":["3"],"aei":"Csensor02"}}
+
+Sat, 07 Nov 2026 17:27:56 GMT
+sensor02 telemetry container: HTTP 201; X-M2M-RSC 2001
+{"m2m:cnt":{"rn":"telemetry","ty":3,"pi":"Csensor02","ri":"3-2026110717275685401j8c000","ct":"20261107T172756","lt":"20261107T172756","st":0,"et":"20991231T235959","mni":1000,"mbs":3153600000,"mia":31536000,"cr":"Csensor02","cni":0,"cbs":0}}
+

@@ -1,0 +1,10 @@
+﻿F3 - Single fake telemetry publication
+Authentication: anonymous
+Topic: campus/sensor01/telemetry
+Payload: {"device":"sensor01","temp":99.9,"hum":0}
+Publisher exit code: 0
+Client lab1-f3-injector sending CONNECT
+Client lab1-f3-injector received CONNACK (0)
+Client lab1-f3-injector sending PUBLISH (d0, q1, r0, m1, 'campus/sensor01/telemetry', ... (41 bytes))
+Client lab1-f3-injector received PUBACK (Mid: 1, RC:0)
+Client lab1-f3-injector sending DISCONNECT

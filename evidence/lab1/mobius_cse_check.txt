@@ -1,0 +1,14 @@
+﻿HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Origin, X-Requested-With, Content-Type, X-M2M-RI, X-M2M-RVI, X-M2M-RSC, Accept, X-M2M-Origin, Locale
+X-M2M-RI: lab1-cse-check-01
+X-M2M-RVI: 3
+Content-Type: application/json; charset=utf-8
+X-M2M-RSC: 2000
+Date: Sat, 07 Nov 2026 17:24:32 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 292
+
+{"m2m:cb":{"pi":null,"ri":"5-2026110717201456000ltg000","ty":5,"ct":"20261107T172014","rn":"Mobius","lt":"20261107T172014","lbl":["Mobius"],"cst":1,"csi":"/Mobius2","srt":[1,2,3,4,5,9,10,13,14,16,23,24,27,28,91,92,93,94,95,96,97,98],"poa":["http://169.254.83.107:7579"],"srv":["1","2","2a"]}}
